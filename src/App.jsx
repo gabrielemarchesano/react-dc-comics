@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="container">
-      <header className="d-flex justify-content-between">
+      <header className="d-flex justify-content-between py-3">
         <div className="logo">
           <img src={dcLogo} alt="" />
         </div>
@@ -22,7 +22,20 @@ function App() {
         </div>
       </header>
       <main>
-
+        <section className="content">
+          <div className="upper-content">
+            <p> --{">"} Content goes here {"<"}-- </p>
+          </div>
+          <div className="bottom-content">
+            <div className="row">
+              <div className="col"></div>
+              <div className="col"></div>
+              <div className="col"></div>
+              <div className="col"></div>
+              <div className="col"></div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer>
 
