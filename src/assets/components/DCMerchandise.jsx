@@ -7,26 +7,26 @@ import dcVisa from "../img/buy-dc-power-visa.svg"
 export default function DCMerchandise() {
   return (
     <div className="container">
-      <div className="row justify-content-around">
+      <div className="row justify-content-around align-items-center">
         <div className="col">
           <img className="shopping-images" src={dcDigital} alt="" />
-          <span>DIGITAL COMICS</span>
+          <a href="">DIGITAL COMICS</a>
         </div>
         <div className="col">
           <img className="shopping-images" src={dcMerchandise} alt="" />
-          <span>DC MERCHANDISE</span>
+          <a href="">DC MERCHANDISE</a>
         </div>
         <div className="col">
           <img className="shopping-images" src={dcSubscription} alt="" />
-          <span>SUBSCRIPTION</span>
+          <a href="">SUBSCRIPTION</a>
         </div>
         <div className="col">
           <img className="shopping-images" src={dcLocation} alt="" />
-          <span>COMIC SHOP LOCATOR</span>
+          <a href="">COMIC SHOP LOCATOR</a>
         </div>
         <div className="col">
           <img className="shopping-images" src={dcVisa} alt="" />
-          <span>DC POWER VISA</span>
+          <a href="">DC POWER VISA</a>
         </div>
       </div>
     </div>

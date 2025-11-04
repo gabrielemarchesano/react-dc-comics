@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <header className="d-flex justify-content-between py-3 container">
+      <header className="d-flex justify-content-between align-items-center py-3 container">
         <div className="logo">
           <img src={dcLogo} alt="" />
         </div>

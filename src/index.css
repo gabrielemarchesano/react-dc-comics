@@ -1,1 +1,29 @@
 @import url("bootstrap");
+@import url();
+
+.col{
+  a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.upper-footer{
+  background-image: url(./assets/img/footer-bg.jpg);
+}
+
+.shopping-images{
+  width: 60px;
+  height: 70px;
+}
+
+.pages{
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  &:hover{
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+  }
+}
