@@ -8,23 +8,23 @@ export default function DCMerchandise() {
   return (
     <div className="container">
       <div className="row justify-content-around align-items-center">
-        <div className="col">
+        <div className="col d-flex align-items-center justify-content-evenly">
           <img className="shopping-images" src={dcDigital} alt="" />
           <a href="">DIGITAL COMICS</a>
         </div>
-        <div className="col">
+        <div className="col d-flex align-items-center justify-content-evenly">
           <img className="shopping-images" src={dcMerchandise} alt="" />
           <a href="">DC MERCHANDISE</a>
         </div>
-        <div className="col">
+        <div className="col d-flex align-items-center justify-content-evenly">
           <img className="shopping-images" src={dcSubscription} alt="" />
           <a href="">SUBSCRIPTION</a>
         </div>
-        <div className="col">
+        <div className="col d-flex align-items-center justify-content-evenly">
           <img className="shopping-images" src={dcLocation} alt="" />
           <a href="">COMIC SHOP LOCATOR</a>
         </div>
-        <div className="col">
+        <div className="col d-flex align-items-center justify-content-evenly">
           <img className="shopping-images" src={dcVisa} alt="" />
           <a href="">DC POWER VISA</a>
         </div>
