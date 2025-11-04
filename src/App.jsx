@@ -33,7 +33,7 @@ function App() {
               <span> --{">"} Content goes here {"<"}-- </span>
             </div>
           </div>
-          <div className="middle-content bg-primary py-5">
+          <div className="bottom-content bg-primary py-5">
             <div className="container">
               <div className="row justify-content-around">
                 <div className="col">
@@ -59,11 +59,59 @@ function App() {
               </div>
             </div>
           </div>
-          
         </section>
       </main>
-      <footer>
-
+      <footer className="text-white">
+          <div className="upper-footer py-5">
+            <div className="container">
+              <ul className="list-unstyled">
+                <a href="" className="list-group-item">DC COMICS</a>
+                <a href="" className="list-group-item">Characters</a>
+                <a href="" className="list-group-item">Comics</a>
+                <a href="" className="list-group-item">Movies</a>
+                <a href="" className="list-group-item">TV</a>
+                <a href="" className="list-group-item">Games</a>
+                <a href="" className="list-group-item">Videos</a>
+                <a href="" className="list-group-item">News</a>
+              </ul>
+              <ul className="list-unstyled">
+                <a href="" className="list-group-item">DC COMICS</a>
+                <a href="" className="list-group-item">Characters</a>
+                <a href="" className="list-group-item">Comics</a>
+                <a href="" className="list-group-item">Movies</a>
+                <a href="" className="list-group-item">TV</a>
+                <a href="" className="list-group-item">Games</a>
+                <a href="" className="list-group-item">Videos</a>
+                <a href="" className="list-group-item">News</a>
+              </ul>
+              <ul className="list-unstyled">
+                <a href="" className="list-group-item">DC COMICS</a>
+                <a href="" className="list-group-item">Characters</a>
+                <a href="" className="list-group-item">Comics</a>
+                <a href="" className="list-group-item">Movies</a>
+                <a href="" className="list-group-item">TV</a>
+                <a href="" className="list-group-item">Games</a>
+                <a href="" className="list-group-item">Videos</a>
+                <a href="" className="list-group-item">News</a>
+              </ul>
+              <ul className="list-unstyled">
+                <a href="" className="list-group-item">DC COMICS</a>
+                <a href="" className="list-group-item">Characters</a>
+                <a href="" className="list-group-item">Comics</a>
+                <a href="" className="list-group-item">Movies</a>
+                <a href="" className="list-group-item">TV</a>
+                <a href="" className="list-group-item">Games</a>
+                <a href="" className="list-group-item">Videos</a>
+                <a href="" className="list-group-item">News</a>
+              </ul>
+            </div>
+          </div>
+          <div className="bottom-footer py-5 bg-dark">
+            <button type="button" className="sign-up-button">SIGN-UP NOW!</button>
+            <div>
+              <span>FOLLOW US</span>
+            </div>
+          </div>
       </footer>
     </div>
   )
