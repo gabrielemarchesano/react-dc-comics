@@ -5,6 +5,9 @@ import dcSubscription from "./assets/img/buy-comics-subscriptions.png"
 import dcLocation from "./assets/img/buy-comics-shop-locator.png"
 import dcVisa from "./assets/img/buy-dc-power-visa.svg"
 
+import Navbar from "./assets/components/Navbar"
+
+
 function App() {
 
   return (
@@ -13,18 +16,7 @@ function App() {
         <div className="logo">
           <img src={dcLogo} alt="" />
         </div>
-        <div className="navbar gap-3 p-0">
-          <a href="">CHARACTERS</a>
-          <a href="">COMICS</a>
-          <a href="">MOVIES</a>
-          <a href="">TV</a>
-          <a href="">GAMES</a>
-          <a href="">COLECTIBLES</a>
-          <a href="">VIDEOS</a>
-          <a href="">FANS</a>
-          <a href="">NEWS</a>
-          <a href="">SHOP</a>
-        </div>
+        <Navbar />
       </header>
       <main>
         <section className="content text-white">
