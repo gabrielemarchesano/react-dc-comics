@@ -2,6 +2,11 @@ import dcLogo from "./assets/img/dc-logo.png"
 import Navbar from "./assets/components/Navbar"
 import DCMerchandise from "./assets/components/DCMerchandise"
 import biggerLogo from "./assets/img/dc-logo-bg.png"
+import facebookLogo from "./assets/img/footer-facebook.png"
+import twitterLogo from "./assets/img/footer-twitter.png"
+import youtubeLogo from "./assets/img/footer-youtube.png"
+import pinterestLogo from "./assets/img/footer-pinterest.png"
+import periscopeLogo from "./assets/img/footer-periscope.png"
 
 
 function App() {
@@ -86,9 +91,16 @@ function App() {
             </div>
           </div>
           <div className="bottom-footer py-5 bg-dark">
-            <button type="button" className="sign-up-button">SIGN-UP NOW!</button>
-            <div>
-              <span>FOLLOW US</span>
+            <div className="container d-flex justify-content-between">
+              <button type="button" className="sign-up-button">SIGN-UP NOW!</button>
+              <div className="d-flex align-items-center gap-2">
+                <span>FOLLOW US</span>
+                <img src={facebookLogo} alt="" />
+                <img src={twitterLogo} alt="" />
+                <img src={youtubeLogo} alt="" />
+                <img src={pinterestLogo} alt="" />
+                <img src={periscopeLogo} alt="" />
+              </div>
             </div>
           </div>
       </footer>

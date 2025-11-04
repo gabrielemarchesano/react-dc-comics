@@ -17,6 +17,11 @@
   position: relative;
 }
 
+.bottom-footer{
+  position: relative;
+  z-index: 1;
+}
+
 .shopping-images{
   width: 70px;
   height: 75px;
