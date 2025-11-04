@@ -31,7 +31,7 @@ function App() {
             <div className="container">
               <div className="row">
                 <div className="col-6">
-                  <div className="row">
+                  <div className="row g-1">
                     <div className="col-4">
                       <ul className="list-unstyled">
                         <a href="" className="list-group-item list-title">DC COMICS</a>
@@ -47,11 +47,6 @@ function App() {
                         <a href="" className="list-group-item list-title">DC COMICS</a>
                         <a href="" className="list-group-item">Characters</a>
                         <a href="" className="list-group-item">Comics</a>
-                        <a href="" className="list-group-item">Movies</a>
-                        <a href="" className="list-group-item">TV</a>
-                        <a href="" className="list-group-item">Games</a>
-                        <a href="" className="list-group-item">Videos</a>
-                        <a href="" className="list-group-item">News</a>
                       </ul>
                     </div>
                     <div className="col-4">
@@ -62,6 +57,10 @@ function App() {
                         <a href="" className="list-group-item">Movies</a>
                         <a href="" className="list-group-item">TV</a>
                         <a href="" className="list-group-item">Games</a>
+                        <a href="" className="list-group-item">Videos</a>
+                        <a href="" className="list-group-item">News</a>
+                        <a href="" className="list-group-item">Videos</a>
+                        <a href="" className="list-group-item">News</a>
                         <a href="" className="list-group-item">Videos</a>
                         <a href="" className="list-group-item">News</a>
                       </ul>
@@ -84,7 +83,6 @@ function App() {
                   <img id="bigger-logo" src={biggerLogo} alt="" srcset="" />
                 </div>
               </div>
-
             </div>
           </div>
           <div className="bottom-footer py-5 bg-dark">
