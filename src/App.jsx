@@ -92,9 +92,9 @@ function App() {
           </div>
           <div className="bottom-footer py-5 bg-dark">
             <div className="container d-flex justify-content-between">
-              <button type="button" className="sign-up-button">SIGN-UP NOW!</button>
-              <div className="d-flex align-items-center gap-2">
-                <span>FOLLOW US</span>
+              <button type="button" className="sign-up-button btn btn-primary py-3">SIGN-UP NOW!</button>
+              <div className="d-flex align-items-center gap-3">
+                <span className="mx-2">FOLLOW US</span>
                 <img src={facebookLogo} alt="" />
                 <img src={twitterLogo} alt="" />
                 <img src={youtubeLogo} alt="" />
