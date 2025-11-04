@@ -1,6 +1,7 @@
 import dcLogo from "./assets/img/dc-logo.png"
 import Navbar from "./assets/components/Navbar"
 import DCMerchandise from "./assets/components/DCMerchandise"
+import biggerLogo from "./assets/img/dc-logo-bg.png"
 
 
 function App() {
@@ -27,50 +28,63 @@ function App() {
       </main>
       <footer className="text-white">
           <div className="upper-footer py-5">
-            <div className="container d-flex">
-              <div>
-                <ul className="list-unstyled">
-                  <a href="" className="list-group-item">DC COMICS</a>
-                  <a href="" className="list-group-item">Characters</a>
-                  <a href="" className="list-group-item">Comics</a>
-                  <a href="" className="list-group-item">Movies</a>
-                  <a href="" className="list-group-item">TV</a>
-                  <a href="" className="list-group-item">Games</a>
-                  <a href="" className="list-group-item">Videos</a>
-                  <a href="" className="list-group-item">News</a>
-                </ul>
-                <ul className="list-unstyled">
-                  <a href="" className="list-group-item">DC COMICS</a>
-                  <a href="" className="list-group-item">Characters</a>
-                  <a href="" className="list-group-item">Comics</a>
-                  <a href="" className="list-group-item">Movies</a>
-                  <a href="" className="list-group-item">TV</a>
-                  <a href="" className="list-group-item">Games</a>
-                  <a href="" className="list-group-item">Videos</a>
-                  <a href="" className="list-group-item">News</a>
-                </ul>
-                <ul className="list-unstyled">
-                  <a href="" className="list-group-item">DC COMICS</a>
-                  <a href="" className="list-group-item">Characters</a>
-                  <a href="" className="list-group-item">Comics</a>
-                  <a href="" className="list-group-item">Movies</a>
-                  <a href="" className="list-group-item">TV</a>
-                  <a href="" className="list-group-item">Games</a>
-                  <a href="" className="list-group-item">Videos</a>
-                  <a href="" className="list-group-item">News</a>
-                </ul>
-                <ul className="list-unstyled">
-                  <a href="" className="list-group-item">DC COMICS</a>
-                  <a href="" className="list-group-item">Characters</a>
-                  <a href="" className="list-group-item">Comics</a>
-                  <a href="" className="list-group-item">Movies</a>
-                  <a href="" className="list-group-item">TV</a>
-                  <a href="" className="list-group-item">Games</a>
-                  <a href="" className="list-group-item">Videos</a>
-                  <a href="" className="list-group-item">News</a>
-                </ul>
+            <div className="container">
+              <div className="row">
+                <div className="col-6">
+                  <div className="row">
+                    <div className="col-4">
+                      <ul className="list-unstyled">
+                        <a href="" className="list-group-item list-title">DC COMICS</a>
+                        <a href="" className="list-group-item">Characters</a>
+                        <a href="" className="list-group-item">Comics</a>
+                        <a href="" className="list-group-item">Movies</a>
+                        <a href="" className="list-group-item">TV</a>
+                        <a href="" className="list-group-item">Games</a>
+                        <a href="" className="list-group-item">Videos</a>
+                        <a href="" className="list-group-item">News</a>
+                      </ul>
+                      <ul className="list-unstyled">
+                        <a href="" className="list-group-item list-title">DC COMICS</a>
+                        <a href="" className="list-group-item">Characters</a>
+                        <a href="" className="list-group-item">Comics</a>
+                        <a href="" className="list-group-item">Movies</a>
+                        <a href="" className="list-group-item">TV</a>
+                        <a href="" className="list-group-item">Games</a>
+                        <a href="" className="list-group-item">Videos</a>
+                        <a href="" className="list-group-item">News</a>
+                      </ul>
+                    </div>
+                    <div className="col-4">
+                      <ul className="list-unstyled">
+                        <a href="" className="list-group-item list-title">DC COMICS</a>
+                        <a href="" className="list-group-item">Characters</a>
+                        <a href="" className="list-group-item">Comics</a>
+                        <a href="" className="list-group-item">Movies</a>
+                        <a href="" className="list-group-item">TV</a>
+                        <a href="" className="list-group-item">Games</a>
+                        <a href="" className="list-group-item">Videos</a>
+                        <a href="" className="list-group-item">News</a>
+                      </ul>
+                    </div>
+                    <div className="col-4">
+                      <ul className="list-unstyled">
+                        <a href="" className="list-group-item list-title">DC COMICS</a>
+                        <a href="" className="list-group-item">Characters</a>
+                        <a href="" className="list-group-item">Comics</a>
+                        <a href="" className="list-group-item">Movies</a>
+                        <a href="" className="list-group-item">TV</a>
+                        <a href="" className="list-group-item">Games</a>
+                        <a href="" className="list-group-item">Videos</a>
+                        <a href="" className="list-group-item">News</a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img id="bigger-logo" src={biggerLogo} alt="" srcset="" />
+                </div>
               </div>
-              
+
             </div>
           </div>
           <div className="bottom-footer py-5 bg-dark">
