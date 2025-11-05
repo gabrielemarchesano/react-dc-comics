@@ -164,8 +164,10 @@ export default function ComicsList() {
                 comics.map((comic) => (
                   <div className="col" key={comic.id}>
                     <div className="card rounded-0">
-                      <img src={comic.thumb} alt="" className="img-top" />
-                      <div className="body">
+                      <div className="img-container">
+                        <img src={comic.thumb} alt="" className="img-top" />
+                      </div>
+                      <div className="body py-2">
                         <h6>{comic.series}</h6>
                       </div>
                     </div>
