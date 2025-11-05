@@ -8,6 +8,12 @@
   }
 }
 
+.img-top{
+
+  object-fit: contain;
+
+}
+
 .upper-footer{
   height: 450px;
   background-image: url(./assets/img/footer-bg.jpg);
@@ -86,3 +92,4 @@
     width: 100%;
   }
 }
+
