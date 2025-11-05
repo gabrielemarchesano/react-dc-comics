@@ -1,4 +1,3 @@
-import dcLogo from "../src/assets/img/dc-logo.png"
 import biggerLogo from "../src/assets/img/dc-logo-bg.png"
 import facebookLogo from "../src/assets/img/footer-facebook.png"
 import twitterLogo from "../src/assets/img/footer-twitter.png"
@@ -6,20 +5,15 @@ import youtubeLogo from "../src/assets/img/footer-youtube.png"
 import pinterestLogo from "../src/assets/img/footer-pinterest.png"
 import periscopeLogo from "../src/assets/img/footer-periscope.png"
 
-import Navbar from "./components/Navbar"
 import DCMerchandise from "./components/DCMerchandise"
+import Header from "./components/Header"
 
 
 function App() {
 
   return (
     <div>
-      <header className="d-flex justify-content-between align-items-center py-3 container">
-        <div className="logo">
-          <img src={dcLogo} alt="" />
-        </div>
-        <Navbar />
-      </header>
+      <Header/>
       <main>
         <section className="content text-white">
           <div className="upper-content bg-dark py-5">
