@@ -70,12 +70,12 @@ export default function Footer(){
         <div className="container d-flex justify-content-between">
           <button type="button" className="sign-up-button btn btn-primary border-2 py-3">SIGN-UP NOW!</button>
           <div className="d-flex align-items-center gap-3">
-            <span className="mx-2">FOLLOW US</span>
-            <img src={facebookLogo} alt="" />
-            <img src={twitterLogo} alt="" />
-            <img src={youtubeLogo} alt="" />
-            <img src={pinterestLogo} alt="" />
-            <img src={periscopeLogo} alt="" />
+            <a className="follow-link" href=""><span className="mx-2">FOLLOW US</span></a>
+            <a href=""><img src={facebookLogo} alt="" /></a>
+            <a href=""><img src={twitterLogo} alt="" /></a>
+            <a href=""><img src={youtubeLogo} alt="" /></a>
+            <a href=""><img src={pinterestLogo} alt="" /></a>
+            <a href=""><img src={periscopeLogo} alt="" /></a>
           </div>
         </div>
       </div>

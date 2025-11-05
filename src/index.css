@@ -1,5 +1,4 @@
 @import url("bootstrap");
-@import url();
 
 .col{
   a{
@@ -55,4 +54,10 @@
 
 .sign-up-button{
   background-color: transparent;
+}
+
+.follow-link{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
 }
