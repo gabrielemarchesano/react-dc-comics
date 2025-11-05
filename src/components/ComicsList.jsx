@@ -157,7 +157,7 @@ export default function ComicsList() {
     <div>
       <div className="upper-content bg-dark pt-5 pb-4 text-white">
         <div className="container">
-          <label htmlFor="current-series" className="current-series">CURRENT SERIES</label>
+          <label htmlFor="current-series" className="btn btn-primary rounded-0 current-series">CURRENT SERIES</label>
           <div className="d-flex flex-column align-items-center">
             <div className="row row-cols-6 g-4">
               {
