@@ -1,12 +1,13 @@
-import dcLogo from "./assets/img/dc-logo.png"
-import Navbar from "./assets/components/Navbar"
-import DCMerchandise from "./assets/components/DCMerchandise"
-import biggerLogo from "./assets/img/dc-logo-bg.png"
-import facebookLogo from "./assets/img/footer-facebook.png"
-import twitterLogo from "./assets/img/footer-twitter.png"
-import youtubeLogo from "./assets/img/footer-youtube.png"
-import pinterestLogo from "./assets/img/footer-pinterest.png"
-import periscopeLogo from "./assets/img/footer-periscope.png"
+import dcLogo from "../src/assets/img/dc-logo.png"
+import biggerLogo from "../src/assets/img/dc-logo-bg.png"
+import facebookLogo from "../src/assets/img/footer-facebook.png"
+import twitterLogo from "../src/assets/img/footer-twitter.png"
+import youtubeLogo from "../src/assets/img/footer-youtube.png"
+import pinterestLogo from "../src/assets/img/footer-pinterest.png"
+import periscopeLogo from "../src/assets/img/footer-periscope.png"
+
+import Navbar from "./components/Navbar"
+import DCMerchandise from "./components/DCMerchandise"
 
 
 function App() {

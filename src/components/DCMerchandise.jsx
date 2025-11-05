@@ -1,8 +1,8 @@
-import dcDigital from "../img/buy-comics-digital-comics.png"
-import dcMerchandise from "../img/buy-comics-merchandise.png"
-import dcSubscription from "../img/buy-comics-subscriptions.png"
-import dcLocation from "../img/buy-comics-shop-locator.png"
-import dcVisa from "../img/buy-dc-power-visa.svg"
+import dcDigital from "../assets/img/buy-comics-digital-comics.png"
+import dcMerchandise from "../assets/img/buy-comics-merchandise.png"
+import dcSubscription from "../assets/img/buy-comics-subscriptions.png"
+import dcLocation from "../assets/img/buy-comics-shop-locator.png"
+import dcVisa from "../assets/img/buy-dc-power-visa.svg"
 
 export default function DCMerchandise() {
   return (
