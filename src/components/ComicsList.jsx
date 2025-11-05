@@ -155,21 +155,25 @@ export default function ComicsList() {
   ];
   return (
     <div>
-      <div className="upper-content bg-dark py-5">
+      <div className="upper-content bg-dark pt-5 pb-4 text-white">
         <div className="container">
-          <div className="row g-3">
-            {
-              comics.map((comic) => (
-                <div className="col" key={comic.id}>
-                  <div className="card">
-                    <img src={comic.thumb} alt="" className="card-img-top" />
-                    <div className="card-body">
-                      <h3>{comic.series}</h3>
+          <label htmlFor="current-series" className="current-series">CURRENT SERIES</label>
+          <div className="d-flex flex-column align-items-center">
+            <div className="row row-cols-6 g-4">
+              {
+                comics.map((comic) => (
+                  <div className="col" key={comic.id}>
+                    <div className="card rounded-0">
+                      <img src={comic.thumb} alt="" className="img-top" />
+                      <div className="body">
+                        <h6>{comic.series}</h6>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))
-            }
+                ))
+              }
+            </div>
+            <button id="load-more" type="button" className="btn btn-primary rounded-0 px-5 mt-5">LOAD MORE</button>
           </div>
         </div>
       </div>

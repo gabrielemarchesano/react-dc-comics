@@ -61,3 +61,13 @@
   font-size: 25px;
   font-weight: 600;
 }
+
+.card{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+#load-more{
+  width: 200px;
+}
