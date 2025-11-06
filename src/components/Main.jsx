@@ -1,11 +1,13 @@
 import DCMerchandise from "./DCMerchandise";
 import ComicsList from "./ComicsList";
+import Banner from "./Banner";
 
-export default function Main() {
+export default function Main({comics}) {
   return (
-    <main className="content text-white">   
-      <ComicsList />
+    <div className="content text-white">
+      <Banner />
+      <ComicsList comics={comics}/>
       <DCMerchandise />
-    </main>
+    </div>
   )
 }
