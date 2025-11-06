@@ -2,7 +2,6 @@
 
 .col{
   a{
-    padding-left: 10px;
     text-decoration: none;
     color: white;
   }
@@ -105,4 +104,8 @@
   top: -75px;
   left: -20px;
   padding: 10px 20px;
+}
+
+.merch{
+  padding: 0;
 }
