@@ -1,4 +1,7 @@
+import Card from "./Card.jsx"
+
 export default function ComicsList() {
+
   const comics = [
     {
       id: 1,
@@ -162,16 +165,7 @@ export default function ComicsList() {
             <div className="row row-cols-6 g-4">
               {
                 comics.map((comic) => (
-                  <div className="col" key={comic.id}>
-                    <div className="card rounded-0">
-                      <div className="img-container">
-                        <img src={comic.thumb} alt="" className="img-top" />
-                      </div>
-                      <div className="body py-2">
-                        <h6>{comic.series}</h6>
-                      </div>
-                    </div>
-                  </div>
+                  <Card key={comic.id} series={comic.series} thumb={comic.thumb}/>
                 ))
               }
             </div>
